@@ -1,0 +1,254 @@
+/* Boogle.html css code */
+#navigation {
+    display: flex;
+    height: 40px;
+    width: auto;
+    background-color: #ccfff2;
+    margin: 5px;
+    justify-content: flex-end;
+}
+.button {
+    margin: 6px;
+    font-family: verdana;
+    color: #0000ff;
+    onclick: rev;
+}
+.fa-adjust {
+    font-size: 30px;
+    margin-left: 15px;
+    margin-top: 4px;
+    color: #0000ff;
+}
+.fa-user-circle {
+    font-size: 30px;
+    margin-left: 15px;
+    margin-top: 4px;
+    margin-right: 9px;
+    color: #0000ff;
+}
+.nav:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+#main {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: auto;
+    margin: 100px;
+    font-family: verdana;
+    font-size: 30px;
+    color: #0000ff;
+}
+.image {
+    width: 220px;
+    height: 220px;
+    align-self: center;
+}
+.image:hover {
+    border: 2px #0000ff dotted;
+    cursor: pointer;
+}
+.input {
+    display: flex;
+    font-size: 24px;
+    width: 33%;
+    align-self: center;
+    margin: 22px;
+    padding: 5px;
+    border: 1px #0000ff solid;
+    color: #0000ff;
+    background-color: #ccfff2;
+}
+.input:hover {
+    border: 2.5px #0000ff solid;
+    background-color: #ccccff;
+}
+.button1 {
+    background-color: #b3ffb3;
+    border: 1px #0000ff solid ;
+    color: #0000ff;
+    border-radius: 15px;
+    padding: 15px 32px;
+    margin: 20px 20px;
+    text-align: center;
+    align-self: center;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 16px;
+    height: auto;
+    width: auto;
+}
+.button1:hover {
+    border: 2.5px #0000ff solid;
+    background-color: #ccccff;
+    cursor: pointer;
+}
+#bottom-a {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #ccfff2;
+    height: 30px;
+    width: auto;
+    font: 16px verdana;
+    font-weight: bold;
+    padding-right: 30px;
+}
+#bottom-b {
+    font-size: 13px;
+    font-weight: bold;
+    font-family: verdana;
+    padding: 10px 8px 10px 14px;
+    background: #ccfff2;
+    display: flex;
+    justify-content: flex-end;
+}
+.sel {
+    background-color: #ccfff3;
+    font: 13px verdana;
+    font-weight: bold;
+    padding-left: 10px;
+    margin-right: 19px;
+    margin-left: 5px;
+    border-radius: 15px;
+}
+.sel:hover {
+    background-color: #b3ffb3;
+    cursor: pointer;
+}
+
+/*Boogle-log-in.html css code */
+h1 {
+    font: 32px verdana;
+    font-weight: 777;
+    text-align: center;
+    color: #0000ff;
+}
+#navigation-log {
+    display: flex;
+    height: 200px;
+    width: auto;
+    background-color: #ccfff2;
+    margin: 5px 400px;
+    justify-content: center;
+    border: 1px grey solid;
+}
+#navigation-log:hover {
+    border: 2.5px #0000ff solid;
+    background-color: #ccccff;
+
+}
+.circle {
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+}
+#usern {
+    margin: auto;
+    margin-top: 32px;
+    display: flex;
+    height: 300px;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.username {
+    font: 20px verdana;
+    font-weight: 800;
+    align-self: flex-start;
+    margin-bottom: 20px;
+}
+.input-log {
+    display: flex;
+    font-size: 14px;
+    width: 95%;
+    align-self: flex-start;
+    margin-bottom: 20px;
+    padding: 5px;
+    border: 1px #0000ff solid;
+    color: #0000ff;
+    background-color: #ccfff2;
+}
+.input-log:hover {
+    border: 2.5px #0000ff solid;
+    background-color: #ccccff;
+}
+#usernameid {
+    margin-top: 40px;
+}
+#passwordid {
+    margin-top: 19px;
+}
+.button-sub {
+    background-color: #4CAF50;
+    padding: 14px 20px;
+    margin: 9px 0;
+    border: none;
+    cursor: pointer;
+    width: 41%;
+    font: 14px verdana;
+    color: white;
+}
+.button-sub:hover {
+    border: 2.5px solid;
+    opacity: 0.7;
+    color: black;
+    font-weight: 800;
+}
+.remember {
+    font-family: verdana;
+    font-size: 16px;
+    margin-top: 0px;
+}
+#rem {
+     margin-left: 4px;
+}
+#check:hover {
+    cursor: pointer;
+    border: 2.5px #0000ff solid;
+    background-color: #ccccff;
+}
+#bottom-log {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #ccfff2;
+    height: 50px;
+    width: 700px;
+}
+.cancel {
+    background-color: red;
+    font: 14px verdana;
+    color: white;
+    cursor: pointer;
+    width: 20%;
+    border: none;
+    padding: 10px 20px;
+}
+.cancel:hover {
+    border: 2.5px #0000ff solid;
+    opacity: 0.86;
+    color: black;
+    font-weight: 800;
+}
+.trouble {
+    font: 14px verdana;
+    cursor: pointer;
+    margin-left:
+}
+.trouble:hover {
+    text-decoration: underline;
+    font-size: 17px;
+}
+.fa-arrow-circle-left {
+    font-size: 30px;
+    margin-left: 15px;
+    margin-top: 4px;
+    color: #0000ff;
+}
+.fa-arrow-circle-left:hover {
+    font-size: 36px;
+}
